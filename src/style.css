@@ -1,5 +1,41 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+
+body {
+  background: white(0, 128, 64, 0.76);
+  padding: 20px;
+  font-family: sans-serif;
+  
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.cartascontainer {
+  background-color: rgba(0, 128, 0, 0.527);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.carta {
+  width: 70px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.icono-arriba {
+  align-self: flex-start;
+}
+
+.icono-abajo{
+  align-self: flex-end;
 }
